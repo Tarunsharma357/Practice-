@@ -1,0 +1,108 @@
+.outer{
+    height: 250px ;
+    width: 250px;
+    background-color: rgba(53, 53, 126, 0.8);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.span1{
+    height: 200px ;
+    width:200px ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+    animation-duration: 6s;
+    background-color: blueviolet;
+    animation-direction: alternate-reverse;
+
+
+}
+.span2{
+    height: 180px ;
+    width:180px ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    background-color: aqua;
+
+}
+
+.span3{
+    height: 150px;
+    width:150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    background-color: brown;
+
+}
+.span4{
+    height: 120px ;
+    width:120px ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-duration: 6s;
+    background-color: plum;
+    animation-direction: alternate-reverse;
+
+}
+.span5{
+    height: 100px ;
+    width:100px ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+    animation-duration: 6s;
+    background-color: yellow;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
